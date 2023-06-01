@@ -17,23 +17,23 @@ public class IntroToRandom {
 		/*************  Random integers with no bounds  *************/
 		
 		// Run this program and you will see that nextInt created 5 random integers which have been printed to the console
-		for (int i=0; i<5; i++) {
-			number = ran.nextInt();
-			System.out.println(number);
-		}
+//	for (int i=0; i<5; i++) {
+//			number = ran.nextInt();
+//		System.out.println(number);
+//		}
 		// The range of numbers that an int variable can hold is very large (as you can see in the console).
 		// Integers can also be positive or negative.
 
 		/*************  Random positive integers with an upper limit only  *************/
 		
 		// Usually we want to limit the numbers to a range in our program. 		
-		for (int i=0; i<5; i++) {
-			// Uncomment the line of code below, but replace the _____ with a positive integer (e.g. 100) before running the program			
-
-			// number = ran.nextInt(_____);
-			System.out.println(number);
-			
-		}
+//		for (int i=0; i<5; i++) {
+//			// Uncomment the line of code below, but replace the _____ with a positive integer (e.g. 100) before running the program			
+//
+//			number = ran.nextInt(5);
+//			System.out.println(number);
+//			
+//		}
 		
 		// All the numbers printed by this loop are less then the number you added - AND POSITIVE
 		// This means, if you entered 100, all the numbers returned by nextInt are between 0 and 99 inclusive
@@ -49,7 +49,7 @@ public class IntroToRandom {
 			// For our example, this will be:  ( 75 - 25 + 1 )
 			// Also replace <lowest value> with the start of the range.  For our example, this is 25.
 			
-			// number = ran.nextInt(_____) + <lowest value>;
+			number = ran.nextInt(25 - 10 +1) + 10;
 			System.out.println(number);
 			
 		}
