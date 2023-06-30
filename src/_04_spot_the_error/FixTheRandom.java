@@ -12,7 +12,7 @@ public class FixTheRandom {
 		
 		Random random = new Random();
 		
-		int numnber = random.nextInt(5);
+		int numnber = random.nextInt( 5 ) + 5;
 		
 		if (numnber == 5) {
 			System.out.println("FIVE");
@@ -26,6 +26,9 @@ public class FixTheRandom {
 			System.out.println("NINE");
 		} else if (numnber == 10) {
 			System.out.println("TEN");
+		}
+		else {
+			System.out.println("your number wasn't one of those");
 		}
 	}
 	
